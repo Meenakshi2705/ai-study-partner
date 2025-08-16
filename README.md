@@ -14,8 +14,8 @@
 ## ⚙️ Tech Stack
 | Component | Technology |
 |-----------|------------|
-| Backend | Node.js, Ollama, Express |
-| Frontend | React, TailwindCSS |
+| Backend | Node.js, Ollama, Express.js |
+| Frontend | HTML, CSS, JavaScript, React, TailwindCSS |
 | NLP | Mistral-7B, TextRank (hybrid) |
 
 ## 📦 Installation
