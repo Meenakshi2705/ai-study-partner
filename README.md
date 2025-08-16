@@ -1,32 +1,42 @@
 # AI Study Partner 📚
 
-**Privacy-first academic summarization using local LLMs (Mistral/Llama3)**  
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE) 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/your-repo)
+**Privacy-first academic summarization using local LLMs (Mistral / Llama 3)**  
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)  
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Meenakshi2705/ai-study-partner)
+
+---
 
 ## 🚀 Features
-- **100% Offline** - No API calls, no data leaks
-- **Academic-Optimized** - Special prompts for technical texts
-- **Model Flexibility** - Switch between Mistral/Llama3/Gemma
-- **PDF Support** - Extract text from research papers
+- 🔒 **100% Offline** – No API calls, no data leaks  
+- 📖 **Academic-Optimized** – Summaries tuned for research & technical texts  
+- 🔄 **Model Flexibility** – Plug-and-play with Mistral, Llama 3, or Gemma  
+- 📑 **PDF Support** – Upload research papers & auto-extract content  
+
+---
 
 ## ⚙️ Tech Stack
-| Component | Technology |
-|-----------|------------|
-| Backend | Node.js, Ollama, Express.js |
-| Frontend | HTML, CSS, JavaScript, React, TailwindCSS |
-| NLP | Mistral-7B, TextRank (hybrid) |
 
-## 📦 Installation
+| Layer      | Technology |
+|------------|------------|
+| **Backend** | Node.js, Express.js, Ollama |
+| **Frontend** | React, TailwindCSS, HTML, CSS, JavaScript |
+| **NLP / AI** | Mistral-7B, TextRank (hybrid approach) |
+
+---
+
+## 📦 Installation & Setup
+
 ```bash
 # 1. Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
 
-# 2. Download model
+# 2. Download the model
 ollama pull mistral
 
-# 3. Set up project
-git clone https://github.com/your-repo.git
+# 3. Clone the repo
+git clone https://github.com/Meenakshi2705/ai-study-partner.git
 cd ai-study-partner
-npm run setup  # Installs both frontend/backend deps
+
+# 4. Install dependencies (frontend + backend)
+npm run setup
